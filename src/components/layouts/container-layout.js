@@ -4,7 +4,7 @@ import {Helmet} from "react-helmet";
 
 const ContainerLayout = (props) => {
   return (
-    <div class="container">
+    <div className="container">
       <Helmet>
         <meta charSet="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
