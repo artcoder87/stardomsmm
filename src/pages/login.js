@@ -5,7 +5,7 @@ import "../styles/index.scss"
 const LoginPage = () => {
   //Bootstrap test
   return (
-    <ContainerLayout>
+    <ContainerLayout bgColor={"bg-gradient-primary"}>
       <div className="row justify-content-center">
         <div className="col-xl-10 col-lg-12 col-md-9">
           <div className="card o-hidden border-0 shadow-lg my-5">
@@ -38,13 +38,13 @@ const LoginPage = () => {
                         <p className="text-primary small">Or Log in With</p>
                         <ul className="nav justify-content-center">
                           <li className="nav-item">
-                            <a className="nav-link text-decoration-none" href="#"><i className="fab fa-2x fa-facebook-f"></i></a>
+                            <a className="nav-link text-decoration-none" href="#"><i className="txt-gradient-kit txt-gradient-primary fab fa-2x fa-facebook-f"></i></a>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link text-decoration-none" href="#"><i className="fab fa-2x fa-twitter"></i></a>
+                            <a className="nav-link text-decoration-none" href="#"><i className="txt-gradient-kit txt-gradient-primary fab fa-2x fa-twitter"></i></a>
                           </li>
                           <li className="nav-item">
-                            <a className="nav-link text-decoration-none" href="#"><i className="fab fa-2x fa-linkedin-in"></i></a>
+                            <a className="nav-link text-decoration-none" href="#"><i className="txt-gradient-kit txt-gradient-primary fab fa-2x fa-linkedin-in"></i></a>
                           </li>
                         </ul>
                       </div>

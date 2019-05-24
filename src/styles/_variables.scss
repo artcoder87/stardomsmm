@@ -19,16 +19,32 @@ $black: #000 !default;
 
 $blue: #5677fc !default;
 $indigo: #673ab7 !default;
+$primary-70: #683ab7cc !default;
 $purple: #9c27b0 !default;
 $pink: #e91e63 !default;
 $red: #e51c23 !default;
 $orange: #ff5722 !default;
+$secondary-25: #ff56224b !default;
+$secondary-50: #ff56227a !default;
+$secondary-70: #ff5622c4 !default;
+$orange-gray-400: #e2d7d1 !default;
 $yellow: #ffff00 !default;
 $green: #5af158 !default;
+$success-25: #5bf15848 !default;
+$success-50: #5bf1587a !default;
+$success-70: #5bf158d5 !default;
+$green-gray-400: #d2e2d1 !default;
 $teal: #64ffda !default;
 $cyan: #18ffff !default;
 
 $primary: $indigo !default;
+$success: $green !default;
+$danger: $pink !default;
+$dark: $gray-900 !default;
+$light: $gray-400 !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$secondary: $orange !default;
 
 // Custom Colors
 $brand-google: #ea4335;
